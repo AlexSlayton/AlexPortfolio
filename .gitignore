@@ -35,3 +35,13 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+node_modules
+
+holdingFile 
+
+gulpfile.js
+
+.DS_Store
+
+nodemailerConfig.js
