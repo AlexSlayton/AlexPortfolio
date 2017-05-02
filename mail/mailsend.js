@@ -45,8 +45,8 @@ let transporter = nodemailer.createTransport({
 var mail = {
     mailOptions: function(to, subject, text, html){
         return {
-            from: 'LendOwe <lendoweapp@gmail.com>', // sender address
-            to: 'Alex SLayton <alexslayton.home@gmail.com>', // list of receivers
+            from: 'Alex Portfolio <AlexTheSlay@gmail.com>', // sender address
+            to: 'Alex Slayton <alexslayton.home@gmail.com>', // list of receivers
             subject: subject || 'this is another test', // Subject line
             text: text || 'Hello world hey hey?', // plain text body
             html: html || '<b>Hello world ?</b>' // html body
